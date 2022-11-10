@@ -191,3 +191,9 @@ default void sort(Comparator<? super E> c) {
 ```
 
 ## 1.6 함수형 프로그래밍에서 가져온 다른 유용한 아이디어
+
+NullPointer 예외를 피할 수 있도록 도와주는 Optional <T> 클래스를 제공
+
+Optional <T>는 값을 갖거나 갖지 않을 수 있는 컨테이너 객체
+
+또한 구조적 패턴 매칭 기법도 제공
