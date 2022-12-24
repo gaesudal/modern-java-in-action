@@ -149,3 +149,9 @@ inventory.sort(comparing(apple -> apple.getWeight()));
 ```java
 inventory.sort(comparing(Apple::getWeight));
 ```
+
+4단계 : 메서드 참조 사용
+
+```java
+inventory.sort(comparing(Apple::getWeight));
+```
